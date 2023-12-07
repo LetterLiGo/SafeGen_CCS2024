@@ -20,13 +20,19 @@ limitations under the License.
     <br>
 <p> -->
 
-## Installation
+## Introduction
+This is the official code for "SAFEGEN: Text-Agnostic Mitigation Against Unsafe Content Generation in Text-to-Image Model". Our  release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
+
+This implementation can be regarded as an example that can incorprate into the Diffusers library. Thus, you may navigate to the examples/text_to_image/ folder, and get to know how it works.
+
+## Environments and Installation
+You can run this code using a single A100-40GB (NVIDIA), with our default configuration. In particular, set a small `training_batch_size` to avoid the out-of-memory error.
 
 we recommand you managing two conda environments to avoid dependencies conflict.
 
-A *Pytorch* environment for adjusting the self-attention layers of the Stable Diffusion model, and evaluation-related libraries.
+- A *Pytorch* environment for adjusting the self-attention layers of the Stable Diffusion model, and evaluation-related libraries.
 
-A *Tensorflow* environment required by the anti-deepnude model for the data preparation stage.
+- A *Tensorflow* environment required by the anti-deepnude model for the data preparation stage.
 ### Requirement of PyTorch + Diffusers
 ```bash
 # You can install the main dependencies by conda/pip
