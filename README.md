@@ -21,7 +21,7 @@ limitations under the License.
 <p> -->
 
 ## Introduction
-This is the official code for "SAFEGEN: Text-Agnostic Mitigation Against Unsafe Content Generation in Text-to-Image Model". Our  release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
+This is the official code for "SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models". Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
 
 This implementation can be regarded as an example that can incorprate into the Diffusers library. Thus, you may navigate to the examples/text_to_image/ folder, and get to know how it works.
 
