@@ -20,7 +20,7 @@ limitations under the License.
     <br>
 <p> -->
 
-## Introduction
+# Introduction
 This is the official code for "[SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models](https://arxiv.org/abs/2404.06666)". Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
 
 This implementation can be regarded as an example that can incorprate into the Diffusers library. Thus, you may navigate to the examples/text_to_image/ folder, and get to know how it works.
@@ -141,6 +141,8 @@ image = pipeline(prompt).images[0]
 image.save("example.png")
 ```
 
+# Adversarial Textual Prompt Benchmark
+Over 50,000 textual adversarial prompts, including self-optimized prompts that appear innocuous, have been developed to test the potential exploitation of T2I models in generating sexually explicit content. Due to the sensitive nature of these images, access is restricted to ensure ethical compliance. Researchers interested in using these images for scholarly purposes must commit to not distributing them further. Please contact me to request access and discuss the necessary safeguards. My email address is: xinfengli@zju.edu.cn.
 
 ## Acknowledgement
 
