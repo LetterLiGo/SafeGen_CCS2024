@@ -21,9 +21,21 @@ limitations under the License.
 <p> -->
 
 ## Introduction
-This is the official code for "SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models". Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
+This is the official code for "[SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models](https://arxiv.org/abs/2404.06666)". Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
 
 This implementation can be regarded as an example that can incorprate into the Diffusers library. Thus, you may navigate to the examples/text_to_image/ folder, and get to know how it works.
+
+# Citation
+
+If you find this code useful, please cite our work with the following reference:
+```
+@inproceedings{li2024safegen,
+  title={SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models},
+  author={Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
+  booktitle={arXiv preprint arXiv:2404.06666},
+  year={2024}
+}
+```
 
 ## Environments and Installation
 You can run this code using a single A100-40GB (NVIDIA), with our default configuration. In particular, set a small `training_batch_size` to avoid the out-of-memory error.
