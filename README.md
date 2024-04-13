@@ -40,7 +40,7 @@ If you find this code useful, please cite our work with the following reference:
 ## Environments and Installation
 You can run this code using a single A100-40GB (NVIDIA), with our default configuration. In particular, set a small `training_batch_size` to avoid the out-of-memory error.
 
-we recommand you managing two conda environments to avoid dependencies conflict.
+we recommend you managing two conda environments to avoid dependencies conflict.
 
 - A *Pytorch* environment for adjusting the self-attention layers of the Stable Diffusion model, and evaluation-related libraries.
 
