@@ -21,16 +21,29 @@ limitations under the License.
 <p> -->
 
 # Introduction
-This is the official code for "[SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models](https://arxiv.org/abs/2404.06666)". Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
+This is the official code for "[SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models](https://arxiv.org/abs/2404.06666)"
+
+🔥 SafeGen will appear in ACM Conference on Computer and Communications Security (**ACM CCS 2024**) __Core-A*, CCF-A, Big 4__. We will put up the camera-ready paper version very soon, once the Camera-Ready Instruction of CCS 2024 is provided.
+
+💪🏻 We will release our pretrained model soon.
+
+Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
 
 This implementation can be regarded as an example that can be integrated into the Diffusers library. Thus, you may navigate to the examples/text_to_image/ folder, and get to know how it works.
 
 # Citation
 
-If you find this code helpful, please kindly consider citing this work with the following reference:
+If you find our paper/code/benchmark helpful, please kindly consider citing this work with the following reference:
 ```
 @inproceedings{li2024safegen,
   title={SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models},
+  author={Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
+  booktitle={arXiv preprint arXiv:2404.06666},
+  year={2024}
+}
+
+@inproceedings{li2024safegen_CCS,
+  title={SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models},
   author={Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
   booktitle={arXiv preprint arXiv:2404.06666},
   year={2024}
