@@ -23,9 +23,9 @@ limitations under the License.
 # Introduction
 This is the official code for "[SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models](https://arxiv.org/abs/2404.06666)"
 
-🔥 SafeGen will appear in ACM Conference on Computer and Communications Security (**ACM CCS 2024**) __Core-A*, CCF-A, Big 4__. We will put up the camera-ready paper version very soon, once the Camera-Ready Instruction of CCS 2024 is provided.
+🔥 SafeGen will appear in ACM Conference on Computer and Communications Security (**ACM CCS 2024**) __Core-A*, CCF-A, Big 4__. We will put up the camera-ready paper version once the Camera-Ready Instruction of CCS 2024 is provided.
 
-💪🏻 We will release our pretrained model soon.
+🤖 We have released our pretrained model on [Hugging Face](https://huggingface.co/LetterJohn/SafeGen-Pretrained-Weights)
 
 Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
 
