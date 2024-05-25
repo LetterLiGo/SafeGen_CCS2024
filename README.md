@@ -25,7 +25,7 @@ This is the official code for "[SafeGen: Mitigating Sexually Explicit Content Ge
 
 🔥 SafeGen will appear in ACM Conference on Computer and Communications Security (**ACM CCS 2024**) __Core-A*, CCF-A, Big 4__. We will put up the camera-ready paper version once the Camera-Ready Instruction of CCS 2024 is provided.
 
-🤖 We have released our pretrained model on [Hugging Face](https://huggingface.co/LetterJohn/SafeGen-Pretrained-Weights)
+📣 We have released our pretrained model on [Hugging Face](https://huggingface.co/LetterJohn/SafeGen-Pretrained-Weights). Please check out how to use it for inference 🤖.
 
 Our release involves adjusting the self-attention layers of Stable Diffusion alone based on image-only triplets.
 
