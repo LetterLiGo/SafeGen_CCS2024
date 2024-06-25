@@ -43,6 +43,17 @@ If you find our paper/code/benchmark helpful, please kindly consider citing this
 }
 ```
 
+or
+
+```
+@article{li2024safegen,
+  title={SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models},
+  author={Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
+  journal={arXiv preprint arXiv:2404.06666},
+  year={2024}
+}
+```
+
 ## Environments and Installation
 You can run this code using a single A100-40GB (NVIDIA), with our default configuration. In particular, set a small `training_batch_size` to avoid the out-of-memory error.
 
