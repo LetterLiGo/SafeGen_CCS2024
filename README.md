@@ -23,7 +23,7 @@ limitations under the License.
 # Introduction
 This is the official code for "[SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models](https://arxiv.org/abs/2404.06666)"
 
-🔥 SafeGen will appear in ACM Conference on Computer and Communications Security (**ACM CCS 2024**) __Core-A*, CCF-A, Big 4__. We will put up the camera-ready paper version once the Camera-Ready Instruction of CCS 2024 is provided.
+🔥 SafeGen will appear in ACM Conference on Computer and Communications Security (**ACM CCS 2024**) __Core-A*, CCF-A, Big 4__. We have put up the camera-ready version on [ArXiv](https://arxiv.org/abs/2404.06666).
 
 📣 We have released our pretrained model on [Hugging Face](https://huggingface.co/LetterJohn/SafeGen-Pretrained-Weights). Please check out how to use it for inference 🤖.
 
@@ -38,7 +38,7 @@ If you find our paper/code/benchmark helpful, please kindly consider citing this
 @inproceedings{li2024safegen,
   author       = {Xinfeng Li and Yuchen Yang and Jiangyi Deng and Chen Yan and Yanjiao Chen and Xiaoyu Ji and Wenyuan Xu},
   title        = {SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models},
-  booktitle    = {Proceedings of the 2024 {ACM} {SIGSAC} Conference on Computer and Communications Security, {CCS} 2024},
+  booktitle    = {Proceedings of the 2024 {ACM} {SIGSAC} Conference on Computer and Communications Security (CCS)},
   year         = {2024},
 }
 ```
