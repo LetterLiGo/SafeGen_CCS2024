@@ -36,10 +36,19 @@ This implementation can be regarded as an example that can be integrated into th
 If you find our paper/code/benchmark helpful, please kindly consider citing this work with the following reference:
 ```
 @inproceedings{li2024safegen,
-  author       = {Xinfeng Li and Yuchen Yang and Jiangyi Deng and Chen Yan and Yanjiao Chen and Xiaoyu Ji and Wenyuan Xu},
+  author       = {Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
   title        = {{SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models}},
   booktitle    = {Proceedings of the 2024 {ACM} {SIGSAC} Conference on Computer and Communications Security (CCS)},
   year         = {2024},
+}
+```
+or
+```
+@article{li2024safegen,
+  title={{SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models}},
+  author={Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
+  journal={arXiv preprint arXiv:2404.06666},
+  year={2024}
 }
 ```
 
