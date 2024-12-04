@@ -66,7 +66,7 @@ we recommend you managing two conda environments to avoid dependencies conflict.
 conda create -n text-agnostic-t2i python=3.8.5
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 # Using the official Diffusers package
-pip install --upgrade diffuers[torch]
+pip install --upgrade diffusers[torch]
 # Or you may use the community maintained version
 conda install -c conda-forge diffusers
 ...
