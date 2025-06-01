@@ -91,6 +91,8 @@ pip install tensorflow-gpu==1.13.1 keras==2.2.4
 conda env create -f environment_tf.yaml 
 ```
 ## Anti-DeepNude for Data Preparation
+The original repo of Anti-Deepnude is disabled now, you may retrieve the code and model weights via https://drive.google.com/file/d/1640p9M_pbHUFrRjmzMkkAp2VS8RmieqU/view?usp=sharing, which is accessible upon your request is approved. Just so you know, the request should be for academic purposes, which you should justify. At least, "your institution and purpose".
+
 You can obtain the <nude, mosaic> pair through:
 ```bash
 python anti-deepnude.py
