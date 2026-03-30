@@ -31,26 +31,7 @@ Our release involves adjusting the self-attention layers of Stable Diffusion alo
 
 This implementation can be regarded as an example that can be integrated into the Diffusers library. Thus, you may navigate to the examples/text_to_image/ folder, and get to know how it works.
 
-# Citation
 
-If you find our paper/code/benchmark helpful, please kindly consider citing this work with the following reference:
-```
-@inproceedings{li2024safegen,
-  author       = {Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
-  title        = {{SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models}},
-  booktitle    = {Proceedings of the 2024 {ACM} {SIGSAC} Conference on Computer and Communications Security (CCS)},
-  year         = {2024},
-}
-```
-or
-```
-@article{li2024safegen,
-  title={{SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models}},
-  author={Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
-  journal={arXiv preprint arXiv:2404.06666},
-  year={2024}
-}
-```
 
 ## Environments and Installation
 You can run this code using a single A100-40GB (NVIDIA), with our default configuration. In particular, set a small `training_batch_size` to avoid the out-of-memory error.
@@ -159,7 +140,19 @@ image.save("example.png")
 ```
 
 # Adversarial Textual Prompt Benchmark
-Over 50,000 textual adversarial prompts, including self-optimized prompts that appear innocuous, have been developed to test the potential exploitation of T2I models in generating sexually explicit content. Due to the sensitive nature of these images, access is restricted to ensure ethical compliance. Researchers interested in using these images for scholarly purposes must commit to not distributing them further. Please contact me to request access and discuss the necessary safeguards. My email address is: xinfengli@zju.edu.cn.
+Over 50,000 textual adversarial prompts, including self-optimized prompts that appear innocuous, have been developed to test the potential exploitation of T2I models in generating sexually explicit content. Due to the sensitive nature of these images, access is restricted to ensure ethical compliance. Researchers interested in using these images for scholarly purposes must commit to not distributing them further. Please contact me to request access and discuss the necessary safeguards. My email address is: xinfengli@zju.edu.cn or you can request the access via https://drive.google.com/file/d/1u1rUtWu_TWu1fWeDDJKoINH21d8ywFGe/view?usp=sharing.
+
+# Citation Format
+
+If you find our paper/code/benchmark helpful, please kindly consider citing this work with the following reference:
+```
+@inproceedings{li2024safegen,
+  author       = {Li, Xinfeng and Yang, Yuchen and Deng, Jiangyi and Yan, Chen and Chen, Yanjiao and Ji, Xiaoyu and Xu, Wenyuan},
+  title        = {{S}afe{G}en: {M}itigating {S}exually {E}xplicit {C}ontent {G}eneration in {T}ext-to-{I}mage {M}odels},
+  booktitle    = {Proceedings of the 2024 {ACM} {SIGSAC} Conference on Computer and Communications Security (CCS)},
+  year         = {2024},
+}
+```
 
 ## Acknowledgement
 
